@@ -1,0 +1,51 @@
+# General file extensions to ignore
+.nfs*
+*.objdump*
+*.o
+*.d
+*.a
+*.vstf
+*.vcd
+*.signature.output
+*.dtb
+*.log
+*.map
+*.elf*
+*.list
+*.memfile
+*.vmem
+
+# General directories to ignore
+.vscode/
+__pycache__/
+**/work*
+!.github/*
+/**/obj_dir*
+/**/gmon*
+
+# Vivado IDE and XSim
+xsim.dir/
+.Xil/
+sim/**/*.coe
+*.pb
+*.str
+*.jou
+
+# Docs
+docs/out
+
+# Build artifacts
+csr.csv
+gateware.tar.gz
+
+# Projects' source code
+# TODO: move RTL code to separate directory from their wrappers
+systems/
+images/
+build/
+
+cores/wf3d/
+cores/polyphony/
+cores/vortex/
+cores/skybox/
+
